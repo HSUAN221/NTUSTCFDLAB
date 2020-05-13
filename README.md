@@ -225,4 +225,5 @@ Cavity at Re = 1000
 
 Validation with cavity at Re = 1000
 --------
-![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/Ghia.png)
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/Re1000_u.png)
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/Re1000_v.png)
