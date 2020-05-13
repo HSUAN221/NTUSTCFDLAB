@@ -211,4 +211,9 @@ The one-degree-of-freedom vortex-induced vibration (VIV) response of circular cy
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/cylinder_FSI.gif)
 
 Cavity at Re = 1000
+--------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/cavity_Re1000.gif)
+
+Validation with cavity at Re = 1000
+--------
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/Ghia.png)
