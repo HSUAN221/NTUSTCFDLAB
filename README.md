@@ -213,9 +213,9 @@ Mesh
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/mesh.jpg)
 
-Airfoil with plasma actuator
+flapping airfoil
 --------
-![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/plasma-on.gif)
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/flappingAirfoil.gif)
 
 The one-degree-of-freedom vortex-induced vibration (VIV) response of circular cylinder
 --------
