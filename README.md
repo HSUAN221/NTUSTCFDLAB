@@ -76,7 +76,7 @@ DBD                            = 0                ! DBD actuator on : 1 ; DBD ac
 
 2.**variables_module.f90**
 
-Numerical values for the mesh size, Re number and what kind of B.Cs to be defined in the main program 'variables_module.f90'.
+Numerical values for the non-uniform mesh size, Re number and what kind of B.Cs to be defined in the program 'variables_module.f90'.
 
 
 <pre><code>
