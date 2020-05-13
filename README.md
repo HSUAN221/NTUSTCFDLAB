@@ -65,8 +65,6 @@ inputfile                      = '0000.Q'          !input first q file
 StartDynamic                   = 1000000
 
 NACA_filename                  = 'NACA0012.DAT'
-
-DBD                            = 0                 ! DBD actuator on : 1 ; DBD actuator off : 0
    
 !-----------------Parameters for the simulation------------------!
 </code></pre>
