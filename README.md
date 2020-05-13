@@ -22,8 +22,7 @@ How to use?
 --------
 The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as mpiifort or mpif90.
 
-**File descriptions**
-*****
+
 
 1.**main.f90**
 
@@ -190,13 +189,25 @@ character(len=20)            :: FrontWall_w        = 'no-slip'
 
 3.**Running the code**
 
-
-1.Use the Makefile to compile all the files and create the Executive file (sol0).
-2.Launch the Executive file (sol0) by command :
+Use the Makefile to compile all the files and create the Executive file (sol0).
+Launch the Executive file (sol0) by command :
 <pre><code>
 mpirun -np A ./sol0
 </code></pre>
 where A is the number of processor
+
+4.**Output file**
+
+You will get different fields (*.q) and mesh file (*.x). After that, you need input q files and x file to tecplot or paraview.
+
+5. **clean data**
+
+Remove the q files and mesh file by command as :
+<pre><code>
+make cleanall
+or
+make clean
+</code></pre>
 
 Mesh
 --------
