@@ -202,7 +202,7 @@ You will get different fields (*.q) and mesh file (*.x). After that, you need in
 
 5. **clean data**
 
-Remove the q files and mesh file by command as :
+Remove the q files and x file by command as :
 <pre><code>
 make cleanall
 or
