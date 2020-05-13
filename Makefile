@@ -37,7 +37,6 @@ OBJS =  \
     GS.o \
     airfoil.o \
     smagorinsky.o \
-    plasma.o
 
 # Linking object files
 exe :   $(OBJS)
