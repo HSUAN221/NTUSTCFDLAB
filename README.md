@@ -204,3 +204,6 @@ Mesh
 Airfoil with plasma actuator
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/plasma-on.gif)
+The one-degree-of-freedom vortex-induced vibration (VIV) response of circular cylinder
+--------
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/cylinder_FSI.gif)
