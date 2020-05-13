@@ -16,11 +16,11 @@ NTUSTCFD
 !    z=1                                                  
 !     
 </code></pre>
-This code is a Fortran implementation of a 3D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The output data can be visualized with tecplot or Paraview.
+This code is a Fortran 3D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The output data can be visualized with tecplot or Paraview.
 
 How to use?
 --------
-The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as mpiifort or mpif90.
+The code being implemented in Fortran90, and Fortran being a compiled language, it requires a compiler such as mpiifort or mpif90.
 
 
 
@@ -200,7 +200,7 @@ where A is the number of processor
 
 You will get different fields (*.q) and mesh file (*.x). After that, you need input q files and x file to tecplot or paraview.
 
-5. **clean data**
+5.**clean data**
 
 Remove the q files and x file by command as :
 <pre><code>
