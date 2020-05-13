@@ -207,6 +207,9 @@ or
 make clean
 </code></pre>
 
+6.**Other informations**
+More details can be found in folder of introduction
+
 Mesh
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/mesh.jpg)
