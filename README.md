@@ -67,7 +67,7 @@ StartDynamic                   = 1000000
 
 NACA_filename                  = 'NACA0012.DAT'
 
-DBD                            = 0                ! DBD actuator on : 1 ; DBD actuator off : 0
+DBD                            = 0                 ! DBD actuator on : 1 ; DBD actuator off : 0
    
 !-----------------Parameters for the simulation------------------!
 </code></pre>
@@ -201,9 +201,14 @@ where A is the number of processor
 Mesh
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/mesh.jpg)
+
 Airfoil with plasma actuator
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/plasma-on.gif)
+
 The one-degree-of-freedom vortex-induced vibration (VIV) response of circular cylinder
 --------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/cylinder_FSI.gif)
+
+Cavity at Re = 1000
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/cavity_Re1000.gif)
