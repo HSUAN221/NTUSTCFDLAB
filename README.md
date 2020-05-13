@@ -209,7 +209,7 @@ make clean
 
 6.**Other informations**
 
-More details can be found in folder of introduction
+More details can be found in folder of introduction.
 
 Mesh
 --------
