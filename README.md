@@ -208,6 +208,7 @@ make clean
 </code></pre>
 
 6.**Other informations**
+
 More details can be found in folder of introduction
 
 Mesh
