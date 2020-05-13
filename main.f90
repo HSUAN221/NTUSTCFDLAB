@@ -68,8 +68,6 @@ program main
    StartDynamic                   = 1000000
 
    NACA_filename                  = 'NACA0012.DAT'
-
-   DBD                            = 0                ! DBD actuator on : 1 ; DBD actuator off : 0
    
    !-----------------Parameters for the simulation------------------!
 
@@ -112,21 +110,6 @@ program main
    call RayCasting()                     ! Creat ETA of airfoil         
    !--------------------------------------------------------------------!
 
-   !--------------------------------------------------------------------!
-   if(DBD == 1)then
-      AOA = AOA1
-      call plasma(Zs, Ys, nx, ny, nz, F_tavex, F_tavey, edelta, &
-                  EE, myid, master, az, ay, poly, AOA)
-      call MPI_BARRIER(MPI_COMM_WORLD, ierr)
-
-      do k=1,nz; do j=1,ny
-         if(edelta(i,j,k)==1 .AND. myid==master)then
-            write(*,*) F_tavex(i,j,k), F_tavey(i,j,k), edelta(i,j,k)
-         end if
-      end do; end do
-   end if
-   !define plasma force field
-   !--------------------------------------------------------------------!
    
 
    if(myid==master)then
@@ -168,14 +151,6 @@ program main
          call RayCasting()                      ! Creat ETA of airfoil
          !--------------------------------------------------------------------!
 
-         !--------------------------------------------------------------------!
-         if(DBD == 1)then
-            call plasma(Zs, Ys, nx, ny, nz, F_tavex, F_tavey, edelta, &
-                        EE, myid, master, az, ay, poly, AOA)
-            call MPI_BARRIER(MPI_COMM_WORLD, ierr)
-         end if
-         !define plasma force field
-         !--------------------------------------------------------------------!
 
       end if
       
