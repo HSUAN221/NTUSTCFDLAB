@@ -190,3 +190,10 @@ character(len=20)            :: FrontWall_w        = 'no-slip'
 
 **Running the code**
 *****
+
+1.Use the Makefile to compile all the files and create the Executive file (sol0).
+2.Launch the Executive file (sol0) by command :
+<pre><code>
+mpirun -np A ./sol0
+</code></pre>
+where A is the number of process
