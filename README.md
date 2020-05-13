@@ -196,4 +196,4 @@ character(len=20)            :: FrontWall_w        = 'no-slip'
 <pre><code>
 mpirun -np A ./sol0
 </code></pre>
-where A is the number of process
+where A is the number of processor
