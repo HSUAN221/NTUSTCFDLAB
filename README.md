@@ -188,8 +188,8 @@ character(len=20)            :: FrontWall_w        = 'no-slip'
 
 </code></pre>
 
-**Running the code**
-*****
+3.**Running the code**
+
 
 1.Use the Makefile to compile all the files and create the Executive file (sol0).
 2.Launch the Executive file (sol0) by command :
@@ -198,6 +198,9 @@ mpirun -np A ./sol0
 </code></pre>
 where A is the number of processor
 
-**Mesh**
-*****
+Mesh
+--------
 ![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/mesh.jpg)
+Airfoil with plasma actuator
+--------
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/plasma-on.gif)
