@@ -197,3 +197,7 @@ character(len=20)            :: FrontWall_w        = 'no-slip'
 mpirun -np A ./sol0
 </code></pre>
 where A is the number of processor
+
+**Mesh**
+*****
+![Alt text](https://github.com/HSUAN221/NTUSTCFDLAB/blob/master/case/mesh.jpg)
