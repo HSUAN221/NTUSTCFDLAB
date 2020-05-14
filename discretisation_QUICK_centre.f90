@@ -223,8 +223,7 @@ subroutine discretisation_QUICK_centre()
 
                         +(nu+nut*LES)*dt*( (v(i+1,j,k)-v(i,j,k)) / Dxs(i) - (v(i,j,k) - v(i-1,j,k)) / Dxs(i-1) ) / iDx(i) &
                         +(nu+nut*LES)*dt*( (v(i,j+1,k)-v(i,j,k)) / iDy(j+1) - (v(i,j,k) - v(i,j-1,k)) / iDy(j) ) / Dys(j) &
-                        +(nu+nut*LES)*dt*( (v(i,j,k+1)-v(i,j,k)) / Dzs(k) - (v(i,j,k) - v(i,j,k-1)) / Dzs(k-1) ) / iDz(k) &
-                        -dt*( (nu+nut*LES)*ABS(F_tavey(i,j,k)) )
+                        +(nu+nut*LES)*dt*( (v(i,j,k+1)-v(i,j,k)) / Dzs(k) - (v(i,j,k) - v(i,j,k-1)) / Dzs(k-1) ) / iDz(k) 
     
   end do;end do
   !$OMP END PARALLEL DO
@@ -337,8 +336,7 @@ subroutine discretisation_QUICK_centre()
                                 
                         +(nu+nut*LES)*dt*( ( w(i+1,j,k)-w(i,j,k) ) / Dxs(i) -  ( w(i,j,k)-w(i-1,j,k) ) / Dxs(i-1)  ) / iDx(i) &
                         +(nu+nut*LES)*dt*( ( w(i,j+1,k)-w(i,j,k) ) / Dys(j) -  ( w(i,j,k)-w(i,j-1,k) ) / Dys(j-1)  ) / iDy(j) &
-                        +(nu+nut*LES)*dt*( ( w(i,j,k+1)-w(i,j,k) ) / iDz(k+1) - ( w(i,j,k)-w(i,j,k-1) ) / iDz(k)   ) / Dzs(k) &
-                        +dt*( (nu+nut*LES)*ABS(F_tavex(i,j,k)) )
+                        +(nu+nut*LES)*dt*( ( w(i,j,k+1)-w(i,j,k) ) / iDz(k+1) - ( w(i,j,k)-w(i,j,k-1) ) / iDz(k)   ) / Dzs(k) 
   end do;end do
   !$OMP END PARALLEL DO
   end do
