@@ -16,7 +16,7 @@ NTUSTCFD
 !    z=1                                                  
 !     
 </code></pre>
-This code is a Fortran 3D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The output data can be visualized with tecplot or Paraview.
+This code is a Fortran 3D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The output data can be visualized with tecplot or paraview.
 
 How to use?
 --------
